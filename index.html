@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Schwimmkurse</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schwimmkurse</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Schwimmkurse</h1>
-    <p>Finde deinen passenden Kurs</p>
+  <h1>Schwimmkurse</h1>
+  <p>Finde deinen passenden Kurs und lade die Unterlagen herunter</p>
 </header>
 
 <main>
+  <section>
+    <h2>Unsere Kurse</h2>
 
-<section id="kurseContainer">
-    <h2>Verfügbare Kurse</h2>
-    <div id="kurse"></div>
-</section>
+    <div class="kurs-layout">
+      <div>
+        <h3 class="bad-title">Flehingen NaturErlebnisbad</h3>
+        <div id="flehingen" class="kurs-spalte"></div>
+      </div>
 
-<section>
+      <div>
+        <h3 class="bad-title">Oberderdingen Filplebad</h3>
+        <div id="oberderdingen" class="kurs-spalte"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <h2>Downloads</h2>
-    <a class="button" href="anmeldung.pdf" download>📄 Anmeldung</a>
-    <a class="button" href="infos.pdf" download>📄 Infos</a>
-</section>
+    <a class="button" href="anmeldung.pdf" download>📄 Anmeldung herunterladen</a>
+    <a class="button" href="infos.pdf" download>📄 Infos herunterladen</a>
+  </section>
 
-<section>
-    <h2>Anmeldung</h2>
-    <p>E-Mail kopieren:</p>
+  <section>
+    <h2>Anmeldung per E-Mail</h2>
+    <p>Kopiere diese E-Mail-Adresse:</p>
     <input type="text" value="deine@email.de" id="email" readonly>
-    <button onclick="kopieren()">Kopieren</button>
-
-    <br><br>
+    <button onclick="kopieren()">E-Mail kopieren</button>
 
     <a class="button" href="mailto:deine@email.de?subject=Anmeldung Schwimmkurs">
-        📧 E-Mail öffnen
+      📧 E-Mail öffnen
     </a>
-</section>
-
+  </section>
 </main>
 
 <footer>
-    © Schwimmkurse
+  © Schwimmkurse
 </footer>
 
 <script>
 fetch('kurse.json')
-    .then(response => response.json())
-    .then(data => {
-        const container = document.getElementById('kurse');
+  .then(response => response.json())
+  .then(data => {
+    const flehingen = document.getElementById('flehingen');
+    const oberderdingen = document.getElementById('oberderdingen');
 
-        data.forEach(kurs => {
-            const div = document.createElement('div');
-            div.classList.add('kurs');
+    data.forEach(kurs => {
+      const div = document.createElement('div');
+      div.classList.add('kurs-card');
 
-            div.innerHTML = `
-                <h3>${kurs.name}</h3>
-                <p><b>Ort:</b> ${kurs.ort}</p>
-                <p><b>Datum:</b> ${kurs.datum}</p>
-                <p><b>Zeiten:</b> ${kurs.zeiten}</p>
-                <p><b>Preis:</b> ${kurs.preis}</p>
-                <p><b>Plätze:</b> ${kurs.plaetze}</p>
-            `;
+      div.innerHTML = `
+        <h4>${kurs.nummer}. ${kurs.kurs}</h4>
+        <p><strong>Datum:</strong> ${kurs.datum}</p>
+        <p><strong>Wochentag:</strong> ${kurs.wochentag}</p>
+        <p><strong>Uhrzeit:</strong> ${kurs.uhrzeit}</p>
+        <p><strong>Preis:</strong> ${kurs.preis}</p>
+        <p><strong>Plätze:</strong> ${kurs.plaetze}</p>
+      `;
 
-            container.appendChild(div);
-        });
+      const ort = kurs.ort.toLowerCase();
+
+      if (ort.includes('flehingen')) {
+        flehingen.appendChild(div);
+      } else if (ort.includes('oberd')) {
+        oberderdingen.appendChild(div);
+      }
     });
+  });
 
 function kopieren() {
-    var copyText = document.getElementById("email");
-    copyText.select();
-    document.execCommand("copy");
-    alert("E-Mail kopiert!");
+  const copyText = document.getElementById("email");
+  copyText.select();
+  document.execCommand("copy");
+  alert("E-Mail-Adresse kopiert!");
 }
 </script>
 
