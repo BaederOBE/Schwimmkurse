@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Schwimmkurse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Schwimmkurse</h1>
+
+    <h2>Kurse auswählen</h2>
+
+    <select id="kursListe">
+        <option>-- Bitte wählen --</option>
+        <option>Anfänger Kinder</option>
+        <option>Fortgeschrittene Kinder</option>
+        <option>Erwachsene Anfänger</option>
+    </select>
+
+    <h2>Downloads</h2>
+
+    <a href="anmeldung.pdf" download>📄 Anmeldung herunterladen</a><br>
+    <a href="infos.pdf" download>📄 Infos herunterladen</a>
+
+    <h2>Anmeldung per E-Mail</h2>
+
+    <p>Kopiere diese E-Mail-Adresse:</p>
+    <input type="text" value="deine@email.de" id="email" readonly>
+    <button onclick="kopieren()">Kopieren</button>
+
+    <br><br>
+
+    <a href="mailto:deine@email.de?subject=Anmeldung Schwimmkurs">
+        📧 E-Mail öffnen
+    </a>
+
+    <script>
+        function kopieren() {
+            var copyText = document.getElementById("email");
+            copyText.select();
+            document.execCommand("copy");
+            alert("E-Mail kopiert!");
+        }
+    </script>
+
+</body>
+</html>
