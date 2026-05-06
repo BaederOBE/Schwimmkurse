@@ -190,17 +190,17 @@
     "plaetze": "10 Kids"
   },
   {
-    "nummer": "",
+    "nummer": "20",
     "kurs": "Kurs Erwachsene",
     "ort": "Oberderdingen FilpleBad",
     "datum": "09.06.-28.07.2026",
     "wochentag": "Fr",
-    "uhrzeit": "18:00-18:45 Uhr",
+    "uhrzeit": "17:00-17:45 Uhr",
     "preis": "165 €",
     "plaetze": "10 Erw"
   },
   {
-    "nummer": "",
+    "nummer": "21",
     "kurs": "Kraulkurs Erwachsene",
     "ort": "Oberderdingen FilpleBad",
     "datum": "11.06.-30.07.2024",
