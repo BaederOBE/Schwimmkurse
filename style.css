@@ -1,76 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #e0f7ff, #ffffff);
-    color: #123;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eaf9ff;
+  color: #123;
 }
 
 header {
-    background: #0077b6;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 42px;
+  margin: 0;
+  font-size: 38px;
 }
 
 header p {
-    font-size: 18px;
+  margin-top: 12px;
+  font-size: 18px;
 }
 
 main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 15px;
 }
 
 section {
-    background: white;
-    margin-bottom: 25px;
-    padding: 25px;
-    border-radius: 16px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
 }
 
 h2 {
-    color: #0077b6;
+  color: #0077b6;
+  margin-top: 0;
 }
 
-select, input {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 1px solid #bbb;
-    margin-top: 8px;
+.kurs-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
 }
 
-button, .button {
-    display: inline-block;
-    background: #00a6fb;
-    color: white;
-    padding: 12px 18px;
-    margin-top: 12px;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
+.bad-title {
+  background: #0077b6;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 0;
 }
 
-button:hover, .button:hover {
-    background: #0077b6;
+.kurs-card {
+  background: #f4fbff;
+  border-left: 6px solid #00a6fb;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 15px;
 }
 
-.downloads a {
-    margin-right: 10px;
+.kurs-card h4 {
+  margin: 0 0 12px;
+  color: #005f8f;
+  font-size: 20px;
+}
+
+.kurs-card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.button, button {
+  display: inline-block;
+  background: #00a6fb;
+  color: white;
+  padding: 12px 18px;
+  margin: 8px 8px 8px 0;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover, button:hover {
+  background: #0077b6;
+}
+
+input {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  margin-bottom: 10px;
 }
 
 footer {
+  text-align: center;
+  padding: 25px;
+  color: #555;
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  .kurs-layout {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 18px;
+  }
+
+  .kurs-card h4 {
+    font-size: 18px;
+  }
+
+  .button, button {
+    width: 100%;
     text-align: center;
-    padding: 25px;
-    color: #555;
+  }
 }
