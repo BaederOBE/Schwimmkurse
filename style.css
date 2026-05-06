@@ -79,31 +79,20 @@ h2 {
   font-size: 15px;
 }
 
-.button, button {
+.button {
   display: inline-block;
   background: #00a6fb;
   color: white;
   padding: 12px 18px;
   margin: 8px 8px 8px 0;
-  border: none;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
 }
 
-.button:hover, button:hover {
+.button:hover {
   background: #0077b6;
-}
-
-input {
-  width: 100%;
-  max-width: 420px;
-  padding: 12px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: 1px solid #bbb;
-  margin-bottom: 10px;
 }
 
 footer {
@@ -129,7 +118,7 @@ footer {
     font-size: 18px;
   }
 
-  .button, button {
+  .button {
     width: 100%;
     text-align: center;
   }
