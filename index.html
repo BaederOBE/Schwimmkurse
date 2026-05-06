@@ -37,12 +37,14 @@
   </section>
 
   <section>
-    <h2>Anmeldung per E-Mail</h2>
-    <p>Kopiere diese E-Mail-Adresse:</p>
-    <input type="text" value="deine@email.de" id="email" readonly>
-    <button onclick="kopieren()">E-Mail kopieren</button>
+    <h2>Anmeldung</h2>
+    <p>
+      Alle Anmeldungen erfolgen unter:<br><br>
+      <strong>schwimmkurse@oberderdingen.net</strong><br><br>
+      und müssen zwingend die Anmeldung enthalten.
+    </p>
 
-    <a class="button" href="mailto:deine@email.de?subject=Anmeldung Schwimmkurs">
+    <a class="button" href="mailto:schwimmkurse@oberderdingen.net?subject=Anmeldung Schwimmkurs">
       📧 E-Mail öffnen
     </a>
   </section>
@@ -64,7 +66,7 @@ fetch('kurse.json')
       div.classList.add('kurs-card');
 
       div.innerHTML = `
-        <h4>${kurs.nummer}. ${kurs.kurs}</h4>
+        <h4>${getNummer(kurs)}</h4>
         <p><strong>Datum:</strong> ${kurs.datum}</p>
         <p><strong>Wochentag:</strong> ${kurs.wochentag}</p>
         <p><strong>Uhrzeit:</strong> ${kurs.uhrzeit}</p>
@@ -82,11 +84,14 @@ fetch('kurse.json')
     });
   });
 
-function kopieren() {
-  const copyText = document.getElementById("email");
-  copyText.select();
-  document.execCommand("copy");
-  alert("E-Mail-Adresse kopiert!");
+function getNummer(kurs) {
+  if (kurs.kurs.includes("Kurs Erwachsene")) {
+    return "20. " + kurs.kurs;
+  }
+  if (kurs.kurs.includes("Kraulkurs Erwachsene")) {
+    return "21. " + kurs.kurs;
+  }
+  return kurs.nummer + ". " + kurs.kurs;
 }
 </script>
 
