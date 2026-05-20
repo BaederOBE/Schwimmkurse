@@ -31,7 +31,7 @@
   },
   {
     "nummer": "4",
-    "kurs": "Crash-Kurs Neunauge  -> wenige Plätze!",
+    "kurs": "Crash-Kurs Neunauge    -> AUSGEBUCHT!",
     "ort": "Flehingen Naturerlebnisbad",
     "datum": "01.06.-05.06.2026",
     "wochentag": "Mo-Fr",
@@ -41,7 +41,7 @@
   },
   {
     "nummer": "5",
-    "kurs": "Anfänger Nachtfalter  -> wenige Plätze!",
+    "kurs": "Anfänger Nachtfalter    -> AUSGEBUCHT!",
     "ort": "Flehingen Naturerlebnisbad",
     "datum": "08.06.-27.07.2026",
     "wochentag": "Mo",
@@ -91,7 +91,7 @@
   },
   {
     "nummer": "10",
-    "kurs": "Camp Nilpferd",
+    "kurs": "Camp Nilpferd   -> Noch 1 Platz Verfügbar!",
     "ort": "Flehingen Naturerlebnisbad",
     "datum": "24.08.-28.08.2026",
     "wochentag": "Mo-Fr",
@@ -161,7 +161,7 @@
   },
   {
     "nummer": "17",
-    "kurs": "Seepferdchen Orca",
+    "kurs": "Seepferdchen Orca   -> AUSGEBUCHT!",
     "ort": "Oberderdingen FilpleBad",
     "datum": "12.06-31.07.2026",
     "wochentag": "Fr",
