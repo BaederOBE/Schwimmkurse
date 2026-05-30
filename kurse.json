@@ -1,193 +1,98 @@
 [
   {
     "nummer": "1",
-    "kurs": "Camp Nilkrokrodil",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "01.06.-05.06.2025",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "9:30-12:00 Uhr",
-    "preis": "140 €",
-    "plaetze": "15 Kids"
+    "kurs": "Camp Nilkrokrodil  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "2",
-    "kurs": "Crash-Kurs Nasenbär",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "01.06.-05.06.2026",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "13:00-13:45 Uhr",
-    "preis": "60 €",
-    "plaetze": "6 Kids"
+    "kurs": "Crash-Kurs Nasenbär  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "3",
-    "kurs": "Crash-Kurs Nacktmull",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "01.06.-05.06.2026",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "14:00-14:45 Uhr",
-    "preis": "60 €",
-    "plaetze": "6 Kids"
+    "kurs": "Crash-Kurs Nacktmull  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "4",
     "kurs": "Crash-Kurs Neunauge    -> AUSGEBUCHT!",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "01.06.-05.06.2026",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "15-15:45 Uhr",
-    "preis": "60 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "5",
     "kurs": "Anfänger Nachtfalter    -> AUSGEBUCHT!",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "08.06.-27.07.2026",
-    "wochentag": "Mo",
-    "uhrzeit": "14:00-14:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "6",
-    "kurs": "Seepferdchen Natter",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "08.06.-27.07.2026",
-    "wochentag": "Mo",
-    "uhrzeit": "15-15:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Seepferdchen Natter  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "7",
     "kurs": "Anfänger Nordkapper  -> AUSGEBUCHT!",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "10.06-29.07.2026",
-    "wochentag": "Mi",
-    "uhrzeit": "14:00-14:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "8",
-    "kurs": "Seepferdchen Narwal",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "10.06-29.07.2026",
-    "wochentag": "Mi",
-    "uhrzeit": "15:00-15:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Seepferdchen Narwal  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "9",
     "kurs": "Seepferdchen Nachtigall  -> AUSGEBUCHT!",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "10.06-29.07.2026",
-    "wochentag": "Mi",
-    "uhrzeit": "16:00-16:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "10",
-    "kurs": "Camp Nilpferd   -> Noch 1 Platz Verfügbar!",
-    "ort": "Flehingen Naturerlebnisbad",
-    "datum": "24.08.-28.08.2026",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "11:00-13:30 Uhr",
-    "preis": "140 €",
-    "plaetze": "10 Kids"
+    "kurs": "Camp Nilpferd     -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "11",
     "kurs": "Seepferdchen Onager  -> AUSGEBUCHT!",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "09.06.-28.07.2026",
-    "wochentag": "Di",
-    "uhrzeit": "14-14:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "12",
-    "kurs": "Seepferdchen Ozelot",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "09.06.-28.07.2026",
-    "wochentag": "Di",
-    "uhrzeit": "15-15:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Seepferdchen Ozelot  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "13",
-    "kurs": "Kraul Oktapi",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "09.06.-28.07.2026",
-    "wochentag": "Di",
-    "uhrzeit": "16-16:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Kraul Oktapi  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "14",
-    "kurs": "Anfänger Otter",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "11.06-30.07.2026",
-    "wochentag": "Do",
-    "uhrzeit": "16-16:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Anfänger Otter  -> AUSGEBUCHT!",
+
   },
   {
     "nummer": "15",
     "kurs": "Bronze Opalracke  -> AUSGEBUCHT!",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "11.06-30.07.2026",
-    "wochentag": "Do",
-    "uhrzeit": "17-17:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "8 Kids"
+
   },
   {
     "nummer": "16",
     "kurs": "Anfänger Opossum  -> AUSGEBUCHT!",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "12.06-31.07.2026",
-    "wochentag": "Fr",
-    "uhrzeit": "14:00-14:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "17",
     "kurs": "Seepferdchen Orca   -> AUSGEBUCHT!",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "12.06-31.07.2026",
-    "wochentag": "Fr",
-    "uhrzeit": "15-15:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+
   },
   {
     "nummer": "18",
-    "kurs": "Kraul Ochsenfrosch",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "12.06-31.07.2026",
-    "wochentag": "Fr",
-    "uhrzeit": "16:00-16:45 Uhr",
-    "preis": "100 €",
-    "plaetze": "6 Kids"
+    "kurs": "Kraul Ochsenfrosch"  -> AUSGEBUCHT!,
+
   },
   {
     "nummer": "19",
     "kurs": "Camp Orang-Utan  -> AUSGEBUCHT!",
-    "ort": "Oberderdingen FilpleBad",
-    "datum": "31.08.-04.09.2026",
-    "wochentag": "Mo-Fr",
-    "uhrzeit": "11:00-13:30 Uhr",
-    "preis": "140 €",
-    "plaetze": "10 Kids"
+
   },
   {
     "nummer": "20",
