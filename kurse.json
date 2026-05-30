@@ -1,84 +1,198 @@
 [
   {
     "nummer": "1",
-    "kurs": "Camp Nilkrokrodil -> AUSGEBUCHT!"
+    "kurs": "Camp Nilkrokrodil",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "2",
-    "kurs": "Crash-Kurs Nasenbär -> AUSGEBUCHT!"
+    "kurs": "Crash-Kurs Nasenbär",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "3",
-    "kurs": "Crash-Kurs Nacktmull -> AUSGEBUCHT!"
+    "kurs": "Crash-Kurs Nacktmull",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "4",
-    "kurs": "Crash-Kurs Neunauge -> AUSGEBUCHT!"
+    "kurs": "Crash-Kurs Neunauge",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "5",
-    "kurs": "Anfänger Nachtfalter -> AUSGEBUCHT!"
+    "kurs": "Anfänger Nachtfalter",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "6",
-    "kurs": "Seepferdchen Natter -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Natter",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "7",
-    "kurs": "Anfänger Nordkapper -> AUSGEBUCHT!"
+    "kurs": "Anfänger Nordkapper",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "8",
-    "kurs": "Seepferdchen Narwal -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Narwal",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "9",
-    "kurs": "Seepferdchen Nachtigall -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Nachtigall",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "10",
-    "kurs": "Camp Nilpferd -> AUSGEBUCHT!"
+    "kurs": "Camp Nilpferd",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "11",
-    "kurs": "Seepferdchen Onager -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Onager",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "12",
-    "kurs": "Seepferdchen Ozelot -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Ozelot",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "13",
-    "kurs": "Kraul Oktapi -> AUSGEBUCHT!"
+    "kurs": "Kraul Oktapi",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "14",
-    "kurs": "Anfänger Otter -> AUSGEBUCHT!"
+    "kurs": "Anfänger Otter",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "15",
-    "kurs": "Bronze Opalracke -> AUSGEBUCHT!"
+    "kurs": "Bronze Opalracke",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "16",
-    "kurs": "Anfänger Opossum -> AUSGEBUCHT!"
+    "kurs": "Anfänger Opossum",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "17",
-    "kurs": "Seepferdchen Orca -> AUSGEBUCHT!"
+    "kurs": "Seepferdchen Orca",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "18",
-    "kurs": "Kraul Ochsenfrosch -> AUSGEBUCHT!"
+    "kurs": "Kraul Ochsenfrosch",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "19",
-    "kurs": "Camp Orang-Utan -> AUSGEBUCHT!"
+    "kurs": "Camp Orang-Utan",
+    "ort": "Flehingen NaturErlebnisbad",
+    "datum": "",
+    "wochentag": "",
+    "uhrzeit": "",
+    "preis": "",
+    "plaetze": "AUSGEBUCHT!"
   },
   {
     "nummer": "20",
     "kurs": "Kurs Erwachsene",
-    "ort": "Oberderdingen FilpleBad",
+    "ort": "Oberderdingen Filplebad",
     "datum": "09.06.-28.07.2026",
     "wochentag": "Fr",
     "uhrzeit": "17:00-17:45 Uhr",
@@ -88,7 +202,7 @@
   {
     "nummer": "21",
     "kurs": "Kraulkurs Erwachsene",
-    "ort": "Oberderdingen FilpleBad",
+    "ort": "Oberderdingen Filplebad",
     "datum": "11.06.-30.07.2024",
     "wochentag": "Do",
     "uhrzeit": "18:00-18:45 Uhr",
